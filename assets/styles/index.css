@@ -1,6 +1,8 @@
 @import './reset.css';
 @import './fonts.css';
 @import './header.css';
+@import './main.css';
+@import './footer.css';
 
 :root {
     /* Cores */
@@ -14,8 +16,4 @@
     --font: 'GT Eesti Pro Display', sans-serif;
 }
 
-.principal {
-    width: 100vw;
-    height: 100vh;
-}
 
