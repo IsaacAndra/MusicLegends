@@ -1,0 +1,21 @@
+@import './reset.css';
+@import './fonts.css';
+@import './header.css';
+
+:root {
+    /* Cores */
+    --gradient-color: to bottom, #4AC08F, #2FB4FF;
+    --green-light: #2EF4CC;
+    /* Cores Neutras */
+    --dark-color: #14061F;
+    --light: #F1F0F0;
+    --gray: #C0C0C0;
+    /* Fonte */
+    --font: 'GT Eesti Pro Display', sans-serif;
+}
+
+.principal {
+    width: 100vw;
+    height: 100vh;
+}
+
