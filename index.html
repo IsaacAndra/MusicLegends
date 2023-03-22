@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Music Legends</title>
 </head>
 
@@ -34,7 +35,35 @@
                 </div>
             </div>
         </header>
+        <section class="image">
+            <div class="image__content">
+                <img src="./assets/image/logo-lol.svg" alt="Logo LoL" class="image__logo">
+                <h2 class="image__content-titulo">Riot Games</h2>
+            </div>
+
+
+            <div class="player">
+                <span id="musicName"></span>
+                <audio src="" id="player"></audio>
+                <div class="controls">
+                    <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
+                    <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+                    <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+                </div>
+                <div class="width">
+                <div class="progress__bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="time">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+            </div>
+
+        </section>
     </main>
+    <script type="module" src="./assets/js/playScript.js"></script>
 </body>
 
 </html>
