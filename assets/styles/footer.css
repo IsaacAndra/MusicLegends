@@ -1,0 +1,70 @@
+
+.player {
+    width: 100%;
+    background: var(--dark-color);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls button {
+    border: none;
+    background-color: var(--dark-color);
+    cursor: pointer;
+  }
+
+  .controls i {
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    color: var(--green-light);
+    transition: all .2s;
+  }
+  
+  .controls i:hover {
+    background-color: lightgray;
+  }
+
+#musicName {
+    width: 300px;
+    font-family: var(--font);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 30px;
+    color: var(--light);
+  }
+
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .time span {
+    font-size: 22px;
+    color: var(--light);
+  }
+
+  .width {
+    width: 300px;
+  }
+
+  .progress__bar {
+    height: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    height: 8px;
+    background: linear-gradient(to bottom, #4AC08F, #2FB4FF);
+    border-radius: 5px;
+  }
