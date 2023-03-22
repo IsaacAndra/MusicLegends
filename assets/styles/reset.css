@@ -27,6 +27,19 @@ body {
 	line-height: 1;
 	overflow-x: hidden;
 }
+
+body::-webkit-scrollbar {
+	width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: var(--dark-color);
+}
+
+body::-webkit-scrollbar-track {
+	background: var(--dark-color);
+}
+
 ol, ul {
 	list-style: none;
 }
