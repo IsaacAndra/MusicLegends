@@ -13,7 +13,8 @@
 }
 
 .menu__lista {
-    width: 300px;
+    flex-wrap: wrap;
+    width: 360px;
     display: flex;
     padding: 5px;
     justify-content: space-between;
@@ -24,6 +25,19 @@
     text-decoration: none;
     font-size: 1.125rem;
     color: var(--gray);
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#barra {
+    display: none;
+    padding: 1px;
+    background: var(--green-light);
+    transition: 0.3s ease-out;
 }
 
 .menu__titulo {
